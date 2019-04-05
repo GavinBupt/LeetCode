@@ -1,0 +1,5 @@
+﻿  源.cpp
+f:\刷题_devc_leetcode\kth smallest element in a sorted matrix\project1\源.cpp(27): warning C4018: “<”: 有符号/无符号不匹配
+f:\刷题_devc_leetcode\kth smallest element in a sorted matrix\project1\源.cpp(29): warning C4018: “<”: 有符号/无符号不匹配
+f:\刷题_devc_leetcode\kth smallest element in a sorted matrix\project1\源.cpp(19): warning C4101: “Kth”: 未引用的局部变量
+LINK : fatal error LNK1104: 无法打开文件“opencv_ml2413d.lib”
