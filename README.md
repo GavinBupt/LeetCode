@@ -1,6 +1,13 @@
 # LeetCode
 刷题
 
+## 提交代码
+git add . <br/>
+git commit -m "注释语句" <br/>
+git pull origin master  <br/>
+git push origin master  <br/>
+
+
 ### 摆动排序 II（参考网上代码）
 - 题目：
 给定一个无序的数组 nums，将它重新排列成 nums[0] < nums[1] > nums[2] < nums[3]... 的顺序 <br/>
