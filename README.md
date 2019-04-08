@@ -50,4 +50,4 @@ git push origin master  <br/>
 - 难点：
 还是动态规划，感觉啥也不会了（越来越菜了） <br/>
 - 解题思路：
-从网上看到一个图，很清晰 <br/> 
+从网上看到一个图，很清晰 ![](https://github.com/GavinBupt/LeetCode/raw/master/Best Time to Buy and Sell Stock with Cooldown/状态转移图.png<br/> 
