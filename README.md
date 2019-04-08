@@ -50,4 +50,8 @@ git push origin master  <br/>
 - 难点：
 还是动态规划，感觉啥也不会了（越来越菜了） <br/>
 - 解题思路：
-从网上看到一个图，很清晰 ![](https://github.com/GavinBupt/LeetCode/raw/master/Best Time to Buy and Sell Stock with Cooldown/状态转移图.png<br/> 
+从网上看到一个图，很清晰。在S0状态可以buy彩票进入S1状态或者什么都不做继续在S0状态；在S1状态可以通过卖出彩票进入S2状态或者什么都不做继续在S1状态；在S2状态通过冷冻期进入S0状态。<br/> ![状态转移图](Best_Time_to_Buy_and_Sell_Stock_with_Cooldown/transform.png)<br/> 总结出状态转移方程：<br/>
+---- S0[i]=max(S0[i-1],S2[i-1) <br/>
+---- S1[i]=max(S1[i],S0[i-1]-price[i]) <br/>
+---- S2[i]=S1[i-1]+price[i] <br/>
+---- 初始化状态为 S0[0]=0 , S1[0]=-price[0] , S2[0]=-∞<br/>
