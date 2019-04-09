@@ -1,0 +1,4 @@
+﻿  源.cpp
+f:\刷题_devc_leetcode\perfect squares\project1\源.cpp(14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  Project1.vcxproj -> F:\刷题_devc_leetcode\Perfect Squares\x64\Debug\Project1.exe
+  Project1.vcxproj -> F:\刷题_devc_leetcode\Perfect Squares\x64\Debug\Project1.pdb (Partial PDB)
