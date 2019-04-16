@@ -21,11 +21,11 @@ public:
 	  return dp[1][length];
     }
 };
-int Nums[]={3,1,5,8};
+int Nums[]={2,6,7,1,16,8,4,5,3,10,12,2,6,7,1,16,8,4,5,3,10,12};
 int main()
 {
      vector<int> nums;
-     for(int i=0;i<4;i++)
+     for(int i=0;i<22;i++)
      nums.push_back(Nums[i]);
      Solution S;
      cout<<"hello"<<endl;

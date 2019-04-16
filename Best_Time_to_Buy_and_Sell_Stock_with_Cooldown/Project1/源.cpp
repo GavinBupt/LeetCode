@@ -23,11 +23,11 @@ public:
 		return max(S0, S2);
 	}
 };
-int Prices[] = { 1,2,3,0,2 };
+int Prices[] = { 2,6,7,1,16,8,4,5,3,10,12,2,6,7,1,16,8,4,5,3,10,12 };
 int main()
 {
 	vector<int> prices;
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < 22; i++)
 		prices.push_back(Prices[i]);
 	Solution S;
 	cout<<S.maxProfit(prices);
